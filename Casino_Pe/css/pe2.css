@@ -1,0 +1,494 @@
+/*Para cambiar el color del fondo de la página*/
+body {background-color:#1B2621;
+}
+
+/*============================
+    ENCABEZADO DE LA PÁGINA
+============================*/
+.titulo {border-top:solid 5px #632B1A;
+    border-bottom: solid 5px #632B1A;
+    border-left: none;
+    border-right: none;
+    background-color: #2D3A33;
+    width: 100%;
+    max-width:auto;
+    height: 90%;
+    max-height: 200px;
+    margin:auto;
+    padding: 1%;
+    display: block;
+    float: none;
+    clear: both;
+    position:fixed;
+}
+ 
+.titulo h1 {background-color: #2D3A33;
+    color: #FFD700;
+    border: double 5px #FFD700;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 150%;
+    width: 90%;
+    max-width: 200px;
+    display: block;
+    float: left;
+    clear: both;
+    position: relative;
+    left: 9%;
+    top: 20%;
+    padding: 1%;
+}
+
+
+.enlaces {background-color: #2D3A33;
+    margin: auto;
+    display: block;
+    position: relative;
+    left: 0%;
+    top: 30%;
+    float:inherit;
+    clear: both;
+    float: none;
+    width: 90%;
+    max-width: 600px;
+}
+
+
+.enlaces a {color: #FFD700;
+    font-size: 125%;
+    background-color:#2D3A33;
+    margin: 5%;
+    text-align: center;
+    display: inline;
+}
+
+
+.buscador {color: #E0E0E0;
+    text-align:right;
+    background-color: #2D3A33;
+    margin-right: 10%;
+    height: 1%;
+    display: block;
+    float: right;
+    position: static;
+}
+
+
+.buscador input {background-color: #E0E0E0;}
+
+
+.buscador ::placeholder {color: black;}
+
+
+.buscador button {background-color: #E0E0E0;}
+
+
+/*===========================
+    SECCIÓN DE GASTRONOMÍA
+===========================*/
+.gastronomia {border: solid #632B1A 5px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #2D3A33;
+    color: #E0E0E0;
+}
+
+
+.gastronomia h2 {text-align: center;}
+
+
+.gastronomia img {border: solid black 4px;
+    border-radius: 5%;
+    display: inline;
+    float:left;
+    position:none;
+    margin: 3%;
+    margin-left:10%;
+    width: 90%;
+    max-width:200px;
+    height: 90%;
+    min-height:150px;
+}
+
+
+.gastronomia p{display: inline;
+    margin: 1%;
+}
+
+
+.gastronomia a {color: #FFD700;
+    margin: 4%;
+    margin-left: 14%;
+    font-size: 120%;
+}
+
+
+/*============================
+    SECCIÓN DE PROMOCIONES
+============================*/
+.promociones { border: solid #632B1A 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #2D3A33;
+    color: #E0E0E0;
+    text-align: center;
+    border: none;
+    background-color: #2D3A33;
+}
+
+
+.promociones p {color: #E0E0E0;
+    background-color: #2D3A33;
+}
+
+
+.promociones strong {color:#C62828;
+    background-color: #2D3A33;
+}
+
+
+.promociones h2 {background-color: #2D3A33;}
+
+
+.promociones img {border: solid black 4px;
+    border-radius: 5%;
+    margin: 3%;
+}
+
+
+/*======================
+    SECCIÓN DE HOTEL
+======================*/
+.hotel h2,p{color: #E0E0E0;
+    text-align: center;
+}
+
+
+.hotel p {background-color:transparent;}
+
+
+.contenedor-hotel a{margin-left: 30%;}
+
+
+.hotel strong {color: #FFD700;}
+
+
+/*============================================
+    CENTRO DE AYUDA, LEGALIDAD Y COPYRIGHT
+============================================*/
+.pie_de_pagina {border: solid black 20px;
+    margin-top: 5%;
+    background-color: black;
+}
+
+
+.centro_de_ayuda {border: none;
+    background-color: black;
+}
+
+
+.centro_de_ayuda h4{text-align: center;
+    color: #E0E0E0;
+    font-size: 125%;
+    background-color: black;
+}
+
+
+.centro_de_ayuda a {color: #E0E0E0;
+    background-color: black;
+    margin: 9%;
+    display: inline;
+    float: none;
+    position: relative;
+    left: 10%;
+    text-align: center;
+}
+
+
+.texto_centro_de_ayuda {width: 65%;
+    margin: auto;
+}
+
+
+.legal {background-color: black;}
+
+
+.legal h4 {text-align: center;
+    color: #E0E0E0;
+    font-size: 125%;
+    background-color: black;
+}
+
+
+.legal a {color: #E0E0E0;
+    background-color: black;
+    margin: 9%;
+    display: inline;
+    float:none;
+    position:relative;
+    left: 4%;
+}
+
+
+.texto_legal {width: 65%;
+    margin: auto;
+}
+
+
+/*===================
+    MEDIA QUERIES
+===================*/
+/*Con esto podemos hacer que la página se adapte dependiendo del tamaño de la pantalla del dispositivo */
+@media screen and (max-width:400px) {
+    .titulo {
+        border-top: solid 5px #632B1A;
+        border-bottom: solid 5px #632B1A;
+        border-left: none;
+        border-right: none;
+        background-color:#2D3A33;
+        width: 100%;
+        max-width: auto;
+        height: 90%;
+        max-height: 150px;
+        padding: 1%;
+        display: block;
+        float: none;
+        clear: both;
+        position: fixed;
+    }
+
+
+    .titulo h1 {background-color: #2D3A33;
+        color: #FFD700;
+        border: double 5px #FFD700;
+        border-radius: 5px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 200%;
+        width: 90%;
+        max-width: 375px;
+        display: block;
+        float: left;
+        clear: both;
+        position: relative;
+        left:4% ;
+        top: 0%;
+        padding: 1%;
+    }
+
+
+    .enlaces {background-color: #2D3A33;
+        margin: auto;
+        display: block;
+        position: relative;
+        left: 1%;
+        top: 4%;
+        float:inherit;
+        clear: both;
+        float: none;
+        width: 90%;
+        max-width: 400px;
+    }
+
+
+    .enlaces a {color: #FFD700;
+        font-size: 125%;
+        background-color:#2D3A33;
+        margin: 3%;
+        text-align: center;
+        display: inline;
+    }
+
+
+    .buscador {color: #E0E0E0;
+        text-align:right;
+        background-color: #2D3A33;
+        margin-right: 5%;
+        height: 1%;
+        display: block;
+        float: right;
+        position: static;
+    }
+
+
+    .buscador input {background-color: #E0E0E0;
+        height: 100%;
+        min-height: 25px;
+    }
+
+
+    .buscador ::placeholder {color: black;}
+
+
+    .buscador button {background-color: #E0E0E0;
+        height: 100%;
+        min-height: 50px;
+    }
+
+
+    .gastronomia {border: solid #632B1A 5px;
+        border-radius: 5px;
+        width: 100%;
+        min-width:600px ;
+        margin-left:13% ;
+        background-color: #2D3A33;
+        color: #E0E0E0;
+    }
+
+
+    .gastronomia h2 {text-align: center;}
+
+
+    .gastronomia img {border: solid black 4px;
+        border-radius: 5%;
+        display: inline;
+        float:left;
+        position:none;
+        margin: 3%;
+        margin-left:4%;
+        width: 90%;
+        max-width:150px;
+        height: 90%;
+        min-height:125px;
+    }
+
+
+    .gastronomia p{display: inline;
+        margin: 1%;
+    }
+
+
+    .gastronomia a {color: #FFD700;
+        margin: 3%;
+        margin-left: 8%;
+        font-size: 120%;
+    }
+
+
+    .promociones { border: solid #632B1A 5px;
+        border-radius: 5px;
+        width: 100%;
+        min-width: 724px;
+        margin: auto;
+        margin-top: 20%;
+        background-color: #2D3A33;
+        color: #E0E0E0;
+        text-align: center;
+        border: none;
+        background-color: #2D3A33;
+    }
+
+
+    .promociones p {color: #E0E0E0;
+        background-color: #2D3A33;
+    }
+
+
+    .promociones strong {color:#C62828;
+        background-color: #2D3A33;
+    }
+
+
+    .promociones h2 {background-color: #2D3A33;}
+
+
+    .promociones img {border: solid black 4px;
+        border-radius: 5%;
+        width: 100%;
+        max-width: 200px;
+        margin: 3%;
+    }
+
+
+    .hotel h2{color: #E0E0E0;
+        text-align: center;
+        position: relative;
+        left: 44%;
+    }
+
+
+    .hotel strong {color:#FFD700;}
+
+
+    .hotel p {background-color:transparent;
+        position: relative;
+        left: 44%;
+    }
+   
+    .contenedor-hotel a{position: relative;
+        right: 15%;
+    }
+
+
+    .pie_de_pagina {border: solid black 20px;
+        margin-top: 5%;
+        background-color: black;
+        width: 100%;
+        min-width: 676px;
+    }
+
+
+    .centro_de_ayuda {border: none;
+        background-color: black;
+    }
+
+
+    .centro_de_ayuda h4{text-align: center;
+        color: #E0E0E0;
+        font-size: 125%;
+        background-color: black;
+    }
+
+
+    .centro_de_ayuda a {color: #E0E0E0;
+        background-color: black;
+        margin: 5%;
+        display: inline;
+        float: none;
+        position: relative;
+        left: 8%;
+        text-align: center;
+    }
+
+
+    .texto_centro_de_ayuda {width: 65%;
+        margin: auto;
+    }
+
+
+    .legal {background-color: black;}
+
+
+    .legal h4 {text-align: center;
+        color: #E0E0E0;
+        font-size: 125%;
+        background-color: black;
+    }
+
+
+    .legal a {color: #E0E0E0;
+        background-color: black;
+        margin: 3%;
+        display: inline;
+        float:none;
+        position:relative;
+        left: 7%;
+    }
+
+
+    .texto_legal {width: 65%;
+        margin: auto;    
+    }
+}
+
+
+
+
+
